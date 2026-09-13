@@ -3,72 +3,183 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="樊盈杉的商业营销、用户洞察、内容运营与AI项目作品集">
-  <title>樊盈杉｜商业营销与用户洞察作品集</title>
+  <meta name="description" content="樊盈杉的商业营销、用户洞察、内容运营与 AI 项目作品集">
+  <meta name="theme-color" content="#0b1020">
+  <meta property="og:title" content="樊盈杉｜商业营销 × 用户洞察 × AI">
+  <meta property="og:description" content="从洞察到增长，让创意有证据，让策略能落地。">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://raw.githubusercontent.com/lin12asd/marketing-portfolio/main/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="樊盈杉｜商业营销 × 用户洞察 × AI">
+  <meta name="twitter:description" content="从洞察到增长，让创意有证据，让策略能落地。">
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/lin12asd/marketing-portfolio/main/og.png">
+  <title>樊盈杉｜商业营销 × 用户洞察 × AI</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="hero">
-    <nav><span class="logo">YS.</span><a href="#work">Selected Work</a><a href="#about">About</a></nav>
-    <div class="hero-copy">
-      <p class="eyebrow">MARKETING · USER INSIGHT · AI WORKFLOW</p>
-      <h1>把用户洞察，<br>变成可落地的增长动作。</h1>
-      <p class="intro">我是樊盈杉，2027届全球广告与品牌硕士毕业生。我的实践横跨品牌策略、用户研究、科技内容运营与AI工作流。</p>
-      <a class="button" href="#work">查看项目</a>
-    </div>
+  <a class="skip-link" href="#work">跳到项目</a>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="返回顶部">
+      <span class="brand-mark">YS</span>
+      <span class="brand-copy">YINGSHAN FAN<br><small>PORTFOLIO · 2027</small></span>
+    </a>
+    <nav aria-label="主导航">
+      <a href="#work">项目</a>
+      <a href="#approach">方法</a>
+      <a href="#about">关于我</a>
+      <a class="nav-cta" href="https://github.com/lin12asd/marketing-portfolio" target="_blank" rel="noopener">GitHub ↗</a>
+    </nav>
   </header>
 
-  <main>
-    <section id="work" class="section">
-      <div class="section-head"><p>01 / SELECTED WORK</p><h2>精选项目</h2></div>
-      <div class="grid">
-        <article class="card featured">
-          <span class="tag">USER RESEARCH</span>
-          <h3>Nike CGI 与非 CGI 广告用户研究</h3>
-          <p>围绕英国Z世代的注意力、品牌真实感和购买意向，搭建视觉内容编码框架并形成传播建议。</p>
-          <a href="01-nike-cgi-research.md">阅读案例 →</a>
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <div class="status"><span></span> 2027 Graduate Portfolio</div>
+        <p class="eyebrow">MARKETING · USER INSIGHT · AI WORKFLOW</p>
+        <h1 id="hero-title">让创意<br><em>有证据，</em><br>让策略能落地。</h1>
+        <p class="intro">我是樊盈杉，全球广告与品牌硕士。擅长从用户、内容与数据中提炼洞察，并把复杂问题转化成清晰、可执行的增长方案。</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#work">查看精选项目 <span>↓</span></a>
+          <a class="button ghost" href="#about">了解我的经历</a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-label="从洞察到行动的工作流示意">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="signal-card card-main">
+          <div class="signal-top"><span>INSIGHT LOOP</span><span class="live-dot">LIVE</span></div>
+          <p class="signal-kicker">From noise to signal</p>
+          <div class="signal-score">01<span>/04</span></div>
+          <div class="signal-bars" aria-hidden="true">
+            <i style="--h:42%"></i><i style="--h:58%"></i><i style="--h:49%"></i><i style="--h:76%"></i><i style="--h:68%"></i><i style="--h:91%"></i>
+          </div>
+          <div class="signal-axis"><span>OBSERVE</span><span>ACT</span></div>
+        </div>
+        <div class="signal-card mini-card mini-one"><b>用户洞察</b><span>USER TRUTH</span></div>
+        <div class="signal-card mini-card mini-two"><b>策略转译</b><span>SHARP ACTION</span></div>
+        <div class="spark spark-one"></div>
+        <div class="spark spark-two"></div>
+      </div>
+    </section>
+
+    <section class="proof-strip" aria-label="关键经历概览">
+      <div><strong>05</strong><span>精选案例<br>Selected cases</span></div>
+      <div><strong>1000+</strong><span>内容平均阅读<br>Avg. article views</span></div>
+      <div><strong>04</strong><span>能力方向<br>Core disciplines</span></div>
+      <div><strong>CN / EN</strong><span>中英文工作<br>Bilingual research</span></div>
+    </section>
+
+    <section id="work" class="section work-section">
+      <div class="section-heading">
+        <div><span class="section-no">01</span><p>SELECTED WORK</p></div>
+        <h2>不同场景，<br>同一种解题方式。</h2>
+        <p>从研究问题、证据方法到落地建议，每个案例都呈现我的具体贡献，而不只是最终结果。</p>
+      </div>
+
+      <div class="project-grid">
+        <article class="project project-orange project-wide">
+          <div class="project-top"><span>01 · USER RESEARCH</span><span>ACADEMIC</span></div>
+          <div class="project-body">
+            <div>
+              <h3>Nike CGI 与非 CGI<br>广告用户研究</h3>
+              <p>围绕英国 Z 世代的注意力、品牌真实感与购买意向，搭建视觉内容编码框架，平衡创意冲击与品牌信任。</p>
+            </div>
+            <div class="project-aside">
+              <p>METHOD</p><strong>文献检索<br>样本设计<br>定性编码</strong>
+            </div>
+          </div>
+          <div class="project-footer">
+            <div class="chips"><span>用户研究</span><span>传播策略</span><span>内容分析</span></div>
+            <a href="https://github.com/lin12asd/marketing-portfolio/blob/main/01-nike-cgi-research.md" target="_blank" rel="noopener" aria-label="阅读 Nike CGI 用户研究案例">阅读案例 <b>↗</b></a>
+          </div>
         </article>
-        <article class="card">
-          <span class="tag">BRAND STRATEGY</span>
-          <h3>Marriott Maldives 客群与整合营销策略</h3>
-          <p>连接客群分层、消费动机、产品利益点、服务触点与效果指标。</p>
-          <a href="02-marriott-maldives-strategy.md">阅读案例 →</a>
+
+        <article class="project project-lime">
+          <div class="project-top"><span>02 · BRAND STRATEGY</span><span>ACADEMIC</span></div>
+          <h3>Marriott Maldives<br>客群与整合营销策略</h3>
+          <p>将三类客群的消费动机与产品利益点、内容主题、渠道触点及 KPI 串成完整策略。</p>
+          <div class="chips"><span>STP</span><span>4P</span><span>客群分层</span></div>
+          <a href="https://github.com/lin12asd/marketing-portfolio/blob/main/02-marriott-maldives-strategy.md" target="_blank" rel="noopener">阅读案例 <b>↗</b></a>
         </article>
-        <article class="card">
-          <span class="tag">CONTENT OPERATIONS</span>
-          <h3>朗科科技产品内容运营</h3>
-          <p>将技术与业务信息转化为用户价值表达，覆盖公众号、TikTok和数据复盘。</p>
-          <a href="03-netac-content-operations.md">阅读案例 →</a>
+
+        <article class="project project-paper">
+          <div class="project-top"><span>03 · CONTENT OPS</span><span>INTERNSHIP</span></div>
+          <h3>朗科科技<br>产品内容运营</h3>
+          <p>把技术与业务信息翻译成用户价值表达，覆盖公众号、TikTok 选题、跨团队协作和数据复盘。</p>
+          <div class="metric"><strong>1000+</strong><span>单篇平均阅读量</span></div>
+          <a href="https://github.com/lin12asd/marketing-portfolio/blob/main/03-netac-content-operations.md" target="_blank" rel="noopener">阅读案例 <b>↗</b></a>
         </article>
-        <article class="card dark">
-          <span class="tag">AI AGENT</span>
-          <h3>数字镜像 AI Agent</h3>
-          <p>通过事实记忆、表达规则与纠错记录，构建可持续迭代的个人AI工作流。</p>
-          <a href="04-ai-digital-mirror.md">阅读案例 →</a>
+
+        <article class="project project-dark">
+          <div class="project-top"><span>04 · AI AGENT</span><span>PERSONAL</span></div>
+          <div class="agent-orbit" aria-hidden="true"><i></i><i></i><i></i><b>AI</b></div>
+          <h3>数字镜像<br>AI Agent</h3>
+          <p>用事实记忆、表达规则与纠错机制，构建可以持续校准的个人 AI 工作流。</p>
+          <div class="chips"><span>Prompt</span><span>信息架构</span><span>迭代验证</span></div>
+          <a href="https://github.com/lin12asd/marketing-portfolio/blob/main/04-ai-digital-mirror.md" target="_blank" rel="noopener">阅读案例 <b>↗</b></a>
         </article>
-        <article class="card">
-          <span class="tag">EDITORIAL</span>
-          <h3>深圳晚报与文博会传播</h3>
-          <p>完成选题、采访、事实核验、原创写作和大型文化活动现场协同。</p>
-          <a href="05-shenzhen-evening-news.md">阅读案例 →</a>
+
+        <article class="project project-blue project-wide editorial-card">
+          <div class="project-top"><span>05 · EDITORIAL</span><span>INTERNSHIP</span></div>
+          <div class="project-body">
+            <div>
+              <h3>深圳晚报采编<br>与文博会传播</h3>
+              <p>从选题、采访、事实核验到原创写作，并参与大型文化活动现场传播与多方协同。</p>
+            </div>
+            <blockquote>“在紧凑节点内，<br>把复杂议题讲清楚。”</blockquote>
+          </div>
+          <div class="project-footer">
+            <div class="chips"><span>热点洞察</span><span>采访写作</span><span>现场执行</span></div>
+            <a href="https://github.com/lin12asd/marketing-portfolio/blob/main/05-shenzhen-evening-news.md" target="_blank" rel="noopener">阅读案例 <b>↗</b></a>
+          </div>
         </article>
       </div>
     </section>
 
-    <section id="about" class="section about">
-      <div class="section-head"><p>02 / ABOUT</p><h2>研究与执行并重</h2></div>
-      <div class="about-grid">
-        <p>我习惯先定义问题，再收集证据、搭建框架并形成行动建议。无论是品牌项目、用户研究还是内容运营，我都关注方案能否被理解、执行和复盘。</p>
-        <ul>
-          <li>消费者与市场洞察</li>
-          <li>品牌及产品营销</li>
-          <li>内容与数据运营</li>
-          <li>AI Agent实践</li>
-        </ul>
+    <section id="approach" class="section approach-section">
+      <div class="section-heading inverse">
+        <div><span class="section-no">02</span><p>HOW I WORK</p></div>
+        <h2>从复杂信息里，<br>找到可执行答案。</h2>
+        <p>我习惯先定义问题，再用证据建立判断，最后把洞察翻译成团队能执行、能验证的动作。</p>
       </div>
+      <div class="steps">
+        <article><span>01</span><h3>Define</h3><p>厘清业务目标、用户问题与成功标准。</p></article>
+        <article><span>02</span><h3>Evidence</h3><p>通过访谈、资料、内容与数据收集证据。</p></article>
+        <article><span>03</span><h3>Frame</h3><p>搭建框架，识别模式、矛盾与机会点。</p></article>
+        <article><span>04</span><h3>Act & Learn</h3><p>形成方案、推动落地，并用反馈持续迭代。</p></article>
+      </div>
+    </section>
+
+    <section id="about" class="section about-section">
+      <div class="about-intro">
+        <p class="eyebrow">03 · ABOUT ME</p>
+        <h2>研究的严谨，<br>内容的敏感，<br><em>行动的速度。</em></h2>
+      </div>
+      <div class="about-content">
+        <p class="about-lead">我的实践横跨品牌策略、用户研究、科技内容运营和 AI 工作流。比起套用框架，我更关注：用户为什么这样选择，以及团队下一步可以做什么。</p>
+        <div class="skill-cloud" aria-label="能力关键词">
+          <span>消费者洞察</span><span>品牌策略</span><span>产品营销</span><span>内容运营</span><span>数据复盘</span><span>AI Agent</span><span>采访写作</span><span>跨团队协作</span>
+        </div>
+        <div class="education">
+          <article><span>MASTER</span><h3>University of Southampton</h3><p>全球广告与品牌硕士 · 预计 2026.12</p></article>
+          <article><span>BACHELOR</span><h3>BNU–HKBU United International College</h3><p>媒体与传播学荣誉学士</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing">
+      <p>LET'S MAKE INSIGHT USEFUL.</p>
+      <h2>让好洞察，<br><em>真正发生作用。</em></h2>
+      <a href="https://github.com/lin12asd/marketing-portfolio" target="_blank" rel="noopener">查看完整 GitHub 作品集 <span>↗</span></a>
     </section>
   </main>
 
-  <footer><span>樊盈杉 · 2027 Graduate Portfolio</span><span>Built with curiosity and evidence.</span></footer>
+  <footer>
+    <span>© 2026 樊盈杉</span>
+    <span>Marketing · User Insight · AI</span>
+    <a href="#top">BACK TO TOP ↑</a>
+  </footer>
 </body>
 </html>
