@@ -8,11 +8,11 @@
 
 | 案例 | 类型 | 核心能力 |
 | --- | --- | --- |
-| [Nike CGI 与非 CGI 广告用户研究](projects/01-nike-cgi-research.md) | 学术研究 | 用户研究、内容分析、传播策略 |
-| [Marriott Maldives 客群与整合营销策略](projects/02-marriott-maldives-strategy.md) | 学术项目 | 客群分层、品牌策略、消费决策 |
-| [朗科科技内容运营](projects/03-netac-content-operations.md) | 实习 | 科技内容、跨平台运营、数据复盘 |
-| [数字镜像 AI Agent](projects/04-ai-digital-mirror.md) | 个人项目 | Prompt、信息架构、迭代验证 |
-| [深圳晚报采编与文博会传播](projects/05-shenzhen-evening-news.md) | 实习 | 采访写作、热点判断、项目协同 |
+| [Nike CGI 与非 CGI 广告用户研究](01-nike-cgi-research.md) | 学术研究 | 用户研究、内容分析、传播策略 |
+| [Marriott Maldives 客群与整合营销策略](02-marriott-maldives-strategy.md) | 学术项目 | 客群分层、品牌策略、消费决策 |
+| [朗科科技内容运营](03-netac-content-operations.md) | 实习 | 科技内容、跨平台运营、数据复盘 |
+| [数字镜像 AI Agent](04-ai-digital-mirror.md) | 个人项目 | Prompt、信息架构、迭代验证 |
+| [深圳晚报采编与文博会传播](05-shenzhen-evening-news.md) | 实习 | 采访写作、热点判断、项目协同 |
 
 ## 能力地图
 
@@ -29,4 +29,3 @@
 - 求职方向：商业营销、产品营销、用户研究、内容/电商运营
 
 > Portfolio prepared for recruitment use. All cases are summarized from the author's own work.
-
